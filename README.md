@@ -1,2 +1,1 @@
-# maps
-Geospacial
+# petapedia.github.io
