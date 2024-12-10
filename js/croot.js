@@ -153,14 +153,14 @@ function updateRegionInfo() {
   document.getElementById("latitude").textContent = latitude;
   document.getElementById("district").textContent = district;
   document.getElementById("province").textContent = province;
-  document.getElementById("sub_district").textContent = subDistrict;
+  document.getElementById("sub-district").textContent = subDistrict;
   document.getElementById("village").textContent = village;
 }
 
 // Function to fetch roads
 async function fetchRoads(longitude, latitude, maxDistance) {
   try {
-    const response = await fetch("https://asia-southeast2-awangga.cloudfunctions.net/idbiz/geo/roads", {
+    const response = await fetch("https://asia-southeast2-awangga.cloudfunctions.net/itungin/roads", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -197,7 +197,7 @@ function displayRoads(geoJSON) {
 
 async function fetchRegionGeoJSON(longitude, latitude) {
   try {
-    const response = await fetch("https://asia-southeast2-awangga.cloudfunctions.net/idbiz/geo/region", {
+    const response = await fetch("https://asia-southeast2-awangga.cloudfunctions.net/itungin/region", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

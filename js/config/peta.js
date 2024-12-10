@@ -6,7 +6,7 @@ import {fromLonLat} from 'https://cdn.skypack.dev/ol/proj.js';
 
 const attributions = '<a href="https://petapedia.github.io/" target="_blank">&copy; PetaPedia Indonesia</a> ';
 
-const place = [-6.874464779514256, 107.57558177847375];
+const place = [107.57634352477324, -6.87436891415509];
 
 export let idmarker = {id:1};
 
