@@ -130,8 +130,7 @@ document.getElementById("regionSearch").addEventListener("click", async () => {
         alert("Failed to fetch region data. Please try again.");
       }
     } catch (error) {
-      console.error("Error fetching region data:", error);
-      alert("An error occurred while fetching region data.");
+      
     }
   } else {
     alert("Please click on the map to select a region.");
